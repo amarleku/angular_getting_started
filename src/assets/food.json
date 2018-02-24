@@ -1,0 +1,205 @@
+{
+	"BURGERS": [{
+			"id": 1,
+			"name": "Beef",
+			"description": "baked onions, baked mushrooms, pickled cucumbers, sauce'",
+			"imageUrl": "assets/img/Burgers/Beef.jpg",
+			"category": "Burgers",
+			"price": 2.90
+		},
+		{
+			"id": 2,
+			"name": "Chicken",
+			"description": "baked onions, baked mushrooms, pickled cucumbers, sauce",
+			"imageUrl": "assets/img/Burgers/Chicken.jpg",
+			"category": "Burgers",
+			"price": 2.60
+		}
+	],
+
+
+
+	"SANDWICHES": [{
+			"id": 1,
+			"name": "Chicken Pesto",
+			"description": "chicken, pesto sauce, baked peppers, green salad",
+			"imageUrl": "assets/img/Sandwiches/ChickenPesto.jpg",
+			"category": "sendwiches",
+			"price": 2
+		},
+		{
+			"id": 2,
+			"name": "Chicken Curry",
+			"description": "chicken, curry sauce, tomato, pickled cucumbers, green salad",
+			"imageUrl": "assets/img/Sandwiches/ChickenCurry.jpg",
+			"category": "sendwiches",
+			"price": 2.20
+		},
+		{
+			"id": 3,
+			"name": "Chicken Cold",
+			"description": "colc chicken mix, white sauce, tomato, green salad",
+			"imageUrl": "assets/img/Sandwiches/ChickenCold.jpg",
+			"category": "sendwiches",
+			"price": 2.40
+		},
+		{
+			"id": 4,
+			"name": "Chicken Crunch",
+			"description": "chicken file wrapped up with cornflakes, pickled cucumbers, fresh peppers, white sauce",
+			"imageUrl": "assets/img/Sandwiches/ChickenCrunch.jpg",
+			"category": "sendwiches",
+			"price": 2.40
+		},
+		{
+			"id": 5,
+			"name": "Veggie",
+			"description": "eggplant, zucchini , pepper, white cheese, green salad, white sauce",
+			"imageUrl": "assets/img/Sandwiches/Veggie.jpg",
+			"category": "sendwiches",
+			"price": 1.90
+		},
+		{
+			"id": 6,
+			"name": "Tuna",
+			"description": "tuna mix, pickled cucumbers, tomato, green salad, white sauce",
+			"imageUrl": "assets/img/Sandwiches/Tuna.jpg",
+			"category": "sendwiches",
+			"price": 2.20
+		},
+		{
+			"id": 7,
+			"name": "Roast Beef",
+			"description": "roasted and marinated beef, baked onions, pickled cucumbers, tomato, green salad, white sauce",
+			"imageUrl": "assets/img/Sandwiches/RoastBeef.jpg",
+			"category": "sendwiches",
+			"price": 2.80
+		},
+		{
+			"id": 8,
+			"name": "Prosciutto",
+			"description": "fried prosciutto, kashkaval cheese, baked and marinated red peppers, rucola, sauce",
+			"imageUrl": "assets/img/Sandwiches/Prosciutto.jpg",
+			"category": "sendwiches",
+			"price": 2.70
+		},
+		{
+			"id": 9,
+			"name": "Mozzarella",
+			"description": "mozzarella, baked and marinated red peppers, rucola, pesto sauce",
+			"imageUrl": "assets/img/Sandwiches/Mozzarella.jpg",
+			"category": "sendwiches",
+			"price": 2.50
+		}
+	],
+
+
+	"SALADS": [{
+			"id": 1,
+			"name": "Mix salad",
+			"description": "green salad, tomato, cucumbers, carrot, rucola",
+			"imageUrl": "assets/img/Salads/MixSalad.jpg",
+			"category": "",
+			"price": 2.50
+		},
+		{
+			"id": 2,
+			"name": "Cold chicken",
+			"description": "cold chicken mic, mic salad, cold pasta",
+			"imageUrl": "assets/img/Salads/ColdChicken.jpg",
+			"category": "",
+			"price": 3.50
+		},
+		{
+			"id": 3,
+			"name": "Tuna mix",
+			"description": "tuna mix, mix salad, cold pasta",
+			"imageUrl": "assets/img/Salads/TunaMix.jpg",
+			"category": "salads",
+			"price": 3.50
+		},
+		{
+			"id": 4,
+			"name": "Falafel",
+			"description": "falafel, mix salad, cold pasta",
+			"imageUrl": "assets/img/Salads/Falafel.jpg",
+			"category": "salads",
+			"price": 3.50
+		},
+		{
+			"id": 5,
+			"name": "Crunch Chicken",
+			"description": "crunchy chicken wrapped up with cornflakes, mix salad, cold pasta",
+			"imageUrl": "assets/img/Salads/CrunchChicken.jpg",
+			"category": "salads",
+			"price": 4.00
+		},
+		{
+			"id": 6,
+			"name": "Grill Chicken",
+			"description": "roasted chicken, mix salad, cold pasta",
+			"imageUrl": "assets/img/Salads/GrillChicsken.jpg",
+			"category": "salads",
+			"price": 4.00
+		},
+		{
+			"id": 7,
+			"name": "Roast Beef",
+			"description": "roasted and marinated beef, mix salad, cold pasta",
+			"imageUrl": "assets/img/Salads/RoastBeef.jpg",
+			"category": "salads",
+			"price": 4.00
+		}
+	],
+
+
+
+
+	"FAJITAS": [{
+			"id": 1,
+			"name": "Beef",
+			"description": "beef meat, tartar sauce, tomato, rucola,chilli sauce sideways",
+			"imageUrl": "assets/img/Fajita/Beef.jpg",
+			"category": "fajita",
+			"price": 3.80
+		},
+		{
+			"id": 2,
+			"name": "Chicken",
+			"description": "chicken meat, tartar sauce, tomato, rucola, chilli sauce sideways",
+			"imageUrl": "assets/img/Fajita/Chicken.jpg",
+			"category": "fajita",
+			"price": 3.50
+		},
+		{
+			"id": 2,
+			"name": "Falafel",
+			"description": "falafel, tartar sauce, tomato, rucola, chilli sauce sideways",
+			"imageUrl": "assets/img/Fajita/Falafel.jpg",
+			"category": "fajita",
+			"price": 3.0
+		}
+	],
+
+
+
+
+	"EXTRAS": [{
+			"id": 1,
+			"name": "Mix salad",
+			"description": "green salad, tomato, cucumber, rucola, carrot, homemade dressing",
+			"imageUrl": "assets/img/Extra/MixSalad.jpg",
+			"category": "extra",
+			"price": 1
+		},
+		{
+			"id": 2,
+			"name": "Fried patatoes",
+			"description": "",
+			"imageUrl": "assets/img/Extra/FriedPotatoes.jpg",
+			"category": "extra",
+			"price": 1
+		}
+	]
+
+}

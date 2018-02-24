@@ -1,0 +1,22 @@
+
+<div class="container">
+    <div class='panel panel-primary'>
+      <div class='text-center panel-heading'>
+        <h2>SALADS </h2>
+        <p>Salads are served with homemade dressing</p>
+      </div>
+      <div class="container">
+        <input [(ngModel)]="query">
+      </div>
+      <hr>
+  
+      <ul class="salads">
+        <li *ngFor="let salad of salads | search:'name,text':query"
+        (click)="onSelect(salads)"
+        [class.selected]="salad === selectedSalad"
+        >
+        <a routerLink="{{salad.id}}" [queryParams]="salad" >{{salad.name}}</a> 
+        </li>
+      </ul>
+    </div>
+  </div>

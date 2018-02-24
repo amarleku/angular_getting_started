@@ -1,0 +1,21 @@
+
+<div class="container">
+    <div class='panel panel-primary'>
+      <div class='text-center panel-heading'>
+        <h2>FAJITA </h2>
+      </div>
+      <div class="container">
+        <input [(ngModel)]="query">
+      </div>
+      <hr>
+  
+      <ul class="fajitas">
+        <li *ngFor="let fajita of fajitas | search:'name,text':query"
+        (click)="onSelect(fajitas)"
+        [class.selected]="fajita === selectedFajita"
+        >
+        <a routerLink="{{fajita.id}}" [queryParams]="fajita" >{{fajita.name}}</a> 
+        </li>
+      </ul>
+    </div>
+  </div>

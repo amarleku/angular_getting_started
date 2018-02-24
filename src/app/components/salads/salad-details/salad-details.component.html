@@ -1,0 +1,37 @@
+<div class="margin-top"></div>
+<div class="container" *ngIf="salad">
+  <div class='panel-body'>
+      <div class='table-responsive'>
+          <table class='table'>
+              <thead>
+                  <tr>
+                        <th>
+                            Image
+                            <!-- <button class='btn btn-primary'
+                                (click)='toggleImage()'>
+                                {{showImage ? 'Hide' : 'Show'}} Image
+                            </button> -->
+                      </th>
+                      <th>Name</th>
+                      <th>Description</th>
+                      <th>Category</th>
+                      <th>Price</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>
+                        <!-- <img *ngIf='showImage'
+                            [src]='salad.imageUrl'> -->
+                            <img  [src]='salad.imageUrl'>
+                    </td>
+                    <td>{{ salad.name }}</td>
+                    <td>{{ salad.description }}</td>
+                    <td>{{ salad.category }}</td>
+                    <td>{{ salad.price | currency:'EUR':true:'1.2-2'}}</td>
+                </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+</div>

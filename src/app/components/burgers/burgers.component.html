@@ -1,0 +1,22 @@
+<div class="container">
+  <div class='panel panel-primary'>
+    <div class='text-center panel-heading'>
+      <h2>BURGERS </h2>
+      <p>Burgers are served with homemade integral bread and fried patatoes</p>
+    </div>
+    <div class="container">
+      <input [(ngModel)]="query">
+    </div>
+    <hr>
+
+    <ul class="burgers">
+      <li *ngFor="let burger of burgers | search:'name,text':query"
+      (click)="onSelect(burgers)"
+      [class.selected]="burger === selectedBurger"
+      >
+      <a routerLink="{{burger.id}}" [queryParams]="burger" >{{burger.name}}</a> 
+      </li>
+    </ul>
+  </div>
+</div>
+
